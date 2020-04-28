@@ -1,0 +1,25 @@
+{% extends 'home.html' %}
+{% block contains_upload %}
+<br>
+<hr>
+<br>
+<div style="margin-left:20px ">
+    <p> The form only allows images [ jpg, png, jpeg ] to upload</p>
+    <form action="http://localhost:5000/output"  method = "POST" enctype = "multipart/form-data">
+        <input type="file" name = "file">
+        <button type="submit">submit</button>
+    </form>
+
+    <div style="text-align:center;color: red;">
+        {% with msg = get_flashed_messages() %}
+            {% if msg %}
+                <ul>
+                    {% for m in msg %}
+                        <li>{{m}}</li>
+                    {% endfor%}
+                </ul>
+            {% endif %}
+        {% endwith %}
+    </div>
+</div>
+{% endblock %}

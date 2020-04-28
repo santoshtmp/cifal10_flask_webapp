@@ -1,0 +1,26 @@
+{% extends 'home.html' %}
+{% block contains_output %}
+<div style="margin-left:20px ">
+    <hr>
+    <p>the upload image is ::
+        <div>
+            <img src="{{url_for('send_img', filename= filename )}}" align="middle" width="200px"/>
+        </div>
+    </p>
+    <li>class name is ::
+        {{class_name}}
+    </li>
+    <li>
+        Probability is ::
+        {{class_prob}}
+    </li>
+    <li>
+        The uploaded file name is ::
+        {{filename}}
+    </li>
+    <li>
+        The file save url ::
+        {{imglink}}
+    </li>
+</div>
+{% endblock  %}
