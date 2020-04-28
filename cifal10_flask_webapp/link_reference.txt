@@ -1,0 +1,13 @@
+To run application::
+	python app.py
+in cmd where application is saved
+
+---------------------------------------------------------------------------------------------------------
+Reference link::
+1. https://flask.palletsprojects.com/en/1.1.x/patterns/fileuploads/
+2. https://flask.palletsprojects.com/en/1.1.x/patterns/flashing/
+3.1. https://www.pytorials.com/mnist-handwritten-digits-classification-using-keras/
+3.2. https://www.pytorials.com/deploy-keras-model-to-production-using-flask/
+4. https://scikit-image.org/docs/dev/user_guide/getting_started.html
+5. https://www.youtube.com/watch?v=Y2fMCxLz6wM   ===   https://github.com/ibrahimokdadov/upload_file_python
+6. https://getbootstrap.com/docs/4.3/getting-started/introduction/
